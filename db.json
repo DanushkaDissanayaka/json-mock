@@ -1,5 +1,5 @@
 {
-    "countries": [
+    "country": [
         {
             "id": 1,
             "name": "United Kindam"
@@ -22,7 +22,7 @@
     "settings": [
         {
             "countryId": 1,
-            "languages": [
+            "language": [
                 {
                     "id": 1,
                     "name": "English",
@@ -34,7 +34,7 @@
                     "countryId": 3
                 }
             ],
-            "groups": [
+            "group": [
                 {
                     "id": 1,
                     "name": "Package"
@@ -59,7 +59,7 @@
         },
         {
             "countryId": 2,
-            "languages": [
+            "language": [
                 {
                     "id": 3,
                     "name": "Russian",
@@ -76,7 +76,7 @@
                     "countryId": 1
                 }
             ],
-            "groups": [
+            "group": [
                 {
                     "id": 1,
                     "name": "Package"
@@ -101,7 +101,7 @@
         },
         {
             "countryId": 3,
-            "languages": [
+            "language": [
                 {
                     "id": 7,
                     "name": "Ukrainian",
@@ -118,7 +118,7 @@
                     "countryId": 1
                 }
             ],
-            "groups": [
+            "group": [
                 {
                     "id": 1,
                     "name": "Package"
@@ -143,7 +143,7 @@
         },
         {
             "countryId": 4,
-            "languages": [
+            "language": [
                 {
                     "id": 3,
                     "name": "Russian",
@@ -170,7 +170,7 @@
                     "countryId": 3
                 }
             ],
-            "groups": [
+            "group": [
                 {
                     "id": 1,
                     "name": "Package"
@@ -194,7 +194,7 @@
             ]
         }
     ],
-    "languages": [
+    "language": [
         {
             "id": 1,
             "name": "English",
@@ -241,7 +241,7 @@
             "countryId": 1
         }
     ],
-    "groups": [
+    "group": [
         {
             "id": 1,
             "name": "Package"
