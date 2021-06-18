@@ -2064,5 +2064,120 @@
             "id": 200,
             "group": "Hotels"
         }
-    ]
+    ],
+    "notifications":[
+        {
+          "id": 1,
+          "notification": "Account activation",
+          "subjectTranslate": "Account activation",
+          "subjectBaseLanguage": "Account activation",
+          "type": "EMAIL/SMS",
+          "description": "This email triggers when user activated",
+          "isMessageTag": true,
+          "isSubjectTag": false,
+          "messageTags": [
+            "!! $userName !!",
+            "!! $approvedPerson !!",
+            "!! $testName !!",
+            "!! $coursePrice !!",
+            "!! $courseCurrency !!",
+            "!! $brandName !!",
+            "!! $brandTelephone !!",
+            "!! $brandEmail !!"
+          ],
+          "subjectTags": [],
+          "messageTranslate": "Hi {!! $userName !!},<br/><br/>                    Your request has been approved by {!! $approvedPerson !!}.<br/><br/>                    Test:   {!! $testName !!}<br/>                    Cost:   {!! $coursePrice !!} {!! $courseCurrency !!}<br/><br/>                    Yours sincerely<br/>                    {!! $brandName !!}<br/>                    {!! $brandTelephone !!}<br/>                    {!! $brandEmail !!}",
+          "messageBaseLanguage": "Hi {!! $userName !!},<br/><br/>                    Your request has been approved by {!! $approvedPerson !!}.<br/><br/>                    Test:   {!! $testName !!}<br/>                    Cost:   {!! $coursePrice !!} {!! $courseCurrency !!}<br/><br/>                    Yours sincerely<br/>                    {!! $brandName !!}<br/>                    {!! $brandTelephone !!}<br/>                    {!! $brandEmail !!}"
+        },
+        {
+          "id": 2,
+          "notification": "Account de-activation",
+          "subjectTranslate": "Account de-activation",
+          "subjectBaseLanguage": "Account de-activation",
+          "type": "EMAIL",
+          "description": "This email triggers when user deactivated",
+          "isMessageTag": true,
+          "isSubjectTag": false,
+          "messageTags": [
+            "!! $userName !!",
+            "!! $brandName !!",
+            "!! $brandTelephone !!",
+            "!! $brandEmail !!"
+          ],
+          "subjectTags": [],
+          "messageTranslate": "Hi {!! $userName !!},<br/><br/>                    We wish to advise you that your User account has been de-activated.<br/><br/>                    Yours sincerely<br/>                    {!! $brandName !!}<br/>                    {!! $brandTelephone !!}<br/>                    {!! $brandEmail !!}",
+          "messageBaseLanguage": "Hi {!! $userName !!},<br/><br/>                    We wish to advise you that your User account has been de-activated.<br/><br/>                    Yours sincerely<br/>                    {!! $brandName !!}<br/>                    {!! $brandTelephone !!}<br/>                    {!! $brandEmail !!}"
+        },
+        {
+          "id": 3,
+          "notification": "Bulk test request approved",
+          "subjectTranslate": "Bulk test request approved",
+          "subjectBaseLanguage": "Bulk test request approved",
+          "type": "SMS",
+          "description": "Bulk test request approved",
+          "isMessageTag": true,
+          "isSubjectTag": false,
+          "messageTags": [
+            "!! $userName !!",
+            "!! $approvedPerson !!",
+            "!! $testName !!",
+            "!! $coursePrice !!",
+            "!! $courseCurrency !!",
+            "!! $brandName !!",
+            "!! $brandTelephone !!",
+            "!! $brandEmail !!"
+          ],
+          "subjectTags": [],
+          "messageTranslate": "Hi {!! $userName !!},<br/><br/>                    Your request has been approved by {!! $approvedPerson !!}.<br/><br/>                    Test:   {!! $testName !!}<br/>                    Cost:   {!! $coursePrice !!} {!! $courseCurrency !!}<br/><br/>                    Yours sincerely<br/>                    {!! $brandName !!}<br/>                    {!! $brandTelephone !!}<br/>                    {!! $brandEmail !!}",
+          "messageBaseLanguage": "Hi {!! $userName !!},<br/><br/>                    Your request has been approved by {!! $approvedPerson !!}.<br/><br/>                    Test:   {!! $testName !!}<br/>                    Cost:   {!! $coursePrice !!} {!! $courseCurrency !!}<br/><br/>                    Yours sincerely<br/>                    {!! $brandName !!}<br/>                    {!! $brandTelephone !!}<br/>                    {!! $brandEmail !!}"
+        },
+        {
+          "id": 4,
+          "notification": "Bulk test request approved",
+          "subjectTranslate": "Bulk test request approved",
+          "subjectBaseLanguage": "Bulk test request approved",
+          "type": "EMAIL/SMS",
+          "description": "This email triggers when user activated",
+          "isMessageTag": true,
+          "isSubjectTag": false,
+          "messageTags": [
+            "!! $userName !!",
+            "!! $approvedPerson !!",
+            "!! $testName !!",
+            "!! $coursePrice !!",
+            "!! $courseCurrency !!",
+            "!! $brandName !!",
+            "!! $brandTelephone !!",
+            "!! $brandEmail !!"
+          ],
+          "subjectTags": [],
+          "messageTranslate": "Hi {!! $userName !!},<br/><br/>                    Your request has been approved by {!! $approvedPerson !!}.<br/><br/>                    Test:   {!! $testName !!}<br/>                    Cost:   {!! $coursePrice !!} {!! $courseCurrency !!}<br/><br/>                    Yours sincerely<br/>                    {!! $brandName !!}<br/>                    {!! $brandTelephone !!}<br/>                    {!! $brandEmail !!}",
+          "messageBaseLanguage": "Hi {!! $userName !!},<br/><br/>                    Your request has been approved by {!! $approvedPerson !!}.<br/><br/>                    Test:   {!! $testName !!}<br/>                    Cost:   {!! $coursePrice !!} {!! $courseCurrency !!}<br/><br/>                    Yours sincerely<br/>                    {!! $brandName !!}<br/>                    {!! $brandTelephone !!}<br/>                    {!! $brandEmail !!}"
+        },
+        {
+          "id": 5,
+          "notification": "Bulk test request approved",
+          "subjectTranslate": "Account Inactivation {!! $userName !!}",
+          "subjectBaseLanguage": "Account Inactivation {!! $userName !!}",
+          "type": "EMAIL",
+          "description": "This email triggers when user activated",
+          "isMessageTag": true,
+          "isSubjectTag": true,
+          "messageTags": [
+            "!! $userName !!",
+            "!! $approvedPerson !!",
+            "!! $testName !!",
+            "!! $coursePrice !!",
+            "!! $courseCurrency !!",
+            "!! $brandName !!",
+            "!! $brandTelephone !!",
+            "!! $brandEmail !!"
+          ],
+          "subjectTags": [
+            "!! $userName !!"
+          ],
+          "messageTranslate": "Hi {!! $userName !!},<br/><br/>                    Your request has been approved by {!! $approvedPerson !!}.<br/><br/>                    Test:   {!! $testName !!}<br/>                    Cost:   {!! $coursePrice !!} {!! $courseCurrency !!}<br/><br/>                    Yours sincerely<br/>                    {!! $brandName !!}<br/>                    {!! $brandTelephone !!}<br/>                    {!! $brandEmail !!}",
+          "messageBaseLanguage": "Hi {!! $userName !!},<br/><br/>                    Your request has been approved by {!! $approvedPerson !!}.<br/><br/>                    Test:   {!! $testName !!}<br/>                    Cost:   {!! $coursePrice !!} {!! $courseCurrency !!}<br/><br/>                    Yours sincerely<br/>                    {!! $brandName !!}<br/>                    {!! $brandTelephone !!}<br/>                    {!! $brandEmail !!}"
+        }
+      ]
 }
