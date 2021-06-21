@@ -2179,5 +2179,52 @@
           "messageTranslate": "Hi {!! $userName !!},<br/><br/>                    Your request has been approved by {!! $approvedPerson !!}.<br/><br/>                    Test:   {!! $testName !!}<br/>                    Cost:   {!! $coursePrice !!} {!! $courseCurrency !!}<br/><br/>                    Yours sincerely<br/>                    {!! $brandName !!}<br/>                    {!! $brandTelephone !!}<br/>                    {!! $brandEmail !!}",
           "messageBaseLanguage": "Hi {!! $userName !!},<br/><br/>                    Your request has been approved by {!! $approvedPerson !!}.<br/><br/>                    Test:   {!! $testName !!}<br/>                    Cost:   {!! $coursePrice !!} {!! $courseCurrency !!}<br/><br/>                    Yours sincerely<br/>                    {!! $brandName !!}<br/>                    {!! $brandTelephone !!}<br/>                    {!! $brandEmail !!}"
         }
-      ]
+    ],
+    "modifications":[
+        {
+            "id":1,
+            "keyword":"err_select_hotel_chain",
+            "base": "Please select hotel chain",
+            "translation":"Veuillez select chain hotel",
+            "translationModified":"updated Veuillez select chain hotel",
+            "createBy": "Olga Perera",
+            "createAt": "2021-06-12"
+        },
+        {
+            "id":2,
+            "keyword":"err_select_hotel_chain",
+            "base": "Please select hotel chain",
+            "translation":"Veuillez select chain hotel",
+            "translationModified":"Veuillez select chain",
+            "createBy": "Gawesha",
+            "createAt": "2021-06-12"
+        },
+        {
+            "id":3,
+            "keyword":"err_select_hotel_chain",
+            "base": "Please select hotel chain",
+            "translation":"Veuillez select chain hotel",
+            "translationModified":"updated Veuillez select chain",
+            "createBy": "Danushka",
+            "createAt": "2021-06-12"
+        },
+        {
+            "id":4,
+            "keyword":"err_select_hotel_chain",
+            "base": "Please select hotel chain",
+            "translation":"Veuillez select chain hotel",
+            "translationModified":"Veuillez selected chain hotel",
+            "createBy": "Danushka",
+            "createAt": "2021-06-12"
+        },
+        {
+            "id":5,
+            "keyword":"err_select_hotel_chain",
+            "base": "Please select hotel chain",
+            "translation":"Veuillez select chain hotel",
+            "translationModified":"updated Veuillez selected chain hotel",
+            "createBy": "Danushka",
+            "createAt": "2021-06-12"
+        }
+    ]
 }
