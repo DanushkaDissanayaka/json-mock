@@ -2225,6 +2225,15 @@
             "translationModified":"updated Veuillez selected chain hotel",
             "createBy": "Danushka",
             "createAt": "2021-06-12"
+        },
+        {
+            "id":6,
+            "keyword":"err_select_hotel_chain",
+            "base": "Please select hotel chain",
+            "translation":"Veuillez select chain hotel",
+            "translationModified":"updated select hotel",
+            "createBy": "Chanaka",
+            "createAt": "2021-06-12"
         }
     ]
 }
